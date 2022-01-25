@@ -19,14 +19,8 @@
 		<header class="topheader">
 			<nav class="topnav">
 				<a href="#" class="logo">
-					<img 
-            height="50"
-            width="50"
-            src="./img/logo.svg" 
-            alt="Desarrollador y Soporte Técnico" />
-					<div class='logotype'>
-            Carlos Ramos
-          </div>
+					<img src="./img/logo.svg" alt="Desarrollador y Soporte Técnico" />
+					<div>Carlos Ramos</div>
 				</a>
 				<button class="open-menu" arial-label="Abrir menú">
 					<img src="./img/hamburger-icon.svg" alt="abrir menú" />
@@ -42,9 +36,8 @@
 				</ul>
 			</nav>
 		</header>
-
 		<div class="horizontal-padding vertical-padding">
-			<section class="profile" id="profile">
+			<section class="profile">
 				<div class="profile-info">
 					<h1 class="profile-title">Hola, soy <br />Carlos Ramos</h1>
 					<p class="profile-details">
@@ -64,15 +57,14 @@
 				</span>
 			</section>
 		</div>
-
-		<section class="experiences" id="experience">
+		<section class="experiences">
 			<img src="./img/wave.svg" alt="división" class="wave" />
 			<div class="experiences-body">
 				<h2 class="experiences-title">Experiencia</h2>
 				<div class="experiences-grid">
 				<div class="empty"></div>
 				<div class="line"></div>
-				<div class="experience" >
+				<div class="experience">
 					<div class="experience-date">1995-1996</div>
 					<div class="experience-company">Socotel</div>
 					<div class="experience-position">Encargado de Computación</div>
@@ -116,7 +108,7 @@
 			<img src="./img/wave.svg" alt="división" class="wave wave_bottom" />
 		</section>
 		<div class="horizontal-padding vertical-padding">
-			<section class="skills" id="skills">
+			<section class="skills">
 				<h2 class="skills-title">Habilidades</h2>
 				<ul class="skills-list">
 					<li class="skills-skills">HTML</li>
@@ -130,9 +122,5 @@
 				</ul>
 			</section>
 		</div>
-
-    <section class='contact vertical-padding' id='contact'>
-      <h2 class='contact-title'>Contacto</h2>
-    </section>
 	</body>
 </html>

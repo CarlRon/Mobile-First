@@ -7,8 +7,6 @@
 .profile-img {
 	width: 80%;
 	max-width: 300px;
-	/* margin: bottom 0;
-	padding: 0; */
 }
 
 .profile-img-section {
@@ -17,10 +15,10 @@
 
 .profile-img-line {
 	background-color: var(--secundary-color);
+	height: 5px;
 	position: absolute;
 	left: 0;
 	bottom: 0;
-	height: 5px;
 	width: 100%;
 }
 
@@ -32,7 +30,8 @@
 	font-family: 'Noto Sans', sans-serif;
 	font-size: 30px;
 	font-weight: bold;
-	margin-top: 70px;
+	/* margin-top: 70px; */
+	margin: 0;
 	color: var(--primary-color);
 }
 
@@ -68,7 +67,7 @@
 	.profile-img {
 		width: 100%;
 		max-width: 350px;
-		margin-top: 60px;
+		/* margin-top: 60px; */
 		transform: scaleX(-1);
 	}
 

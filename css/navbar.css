@@ -5,7 +5,7 @@
 	left: 0;
 	top: 0;
 	width: 100%;
-	z-index: 20;
+	z-index: 100;
 }
 
 .topnav {
@@ -33,7 +33,7 @@
 /* Menu */
 .menu {
 	display: flex;
-	list-style: none;
+	/* list-style: none; */
 	margin: 0;
 	padding: 0;
 }
@@ -71,11 +71,6 @@
 
 .menu a:hover {
 	color: var(--primary-color);
-}
-
-.menu a.selected::after,
-.menu a:hover::after {
-	opacity: 0.8;
 }
 
 .open-menu,
